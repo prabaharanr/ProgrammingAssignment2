@@ -1,5 +1,4 @@
-## 
-##
+## Calculate the inverse of a matrix once , cache it and retrieve it whenever needed 
 
 ## Returns a special matrix which has capability to cache its inverse
 
@@ -22,9 +21,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-##returns the inverse of input matrix
-##Gets the inverse from cache if its already calculated 
-##otherwise calculates the inverse and update the cache 
+##Returns the inverse of input matrix
+##Returns the inverse from cache if its already calculated 
+##otherwise calculates the inverse and update the cache and return the calculated value
 
 
 cacheSolve <- function(x, ...) {
